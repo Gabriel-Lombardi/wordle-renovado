@@ -6,7 +6,15 @@
     <title>Wordle</title>
   </head>
   <body>
-    <!-- solucion     -->
+    <h1>Wordle</h1>
+      <input type="text" id="intento" name="adivinanza" maxlength="5" minlength="5" autocomplete="off" onchange="handleChange(event)" placeholder="Ingrese una palabra...">
+      <br>
+      <a href="javascript:location.reload()"><button type="button" id="reset">Reiniciar</button></a>
+    <div id="juego">
+
+    </div>
+
     <script src="main.js" charset="utf-8"></script>
+
   </body>
 </html>
